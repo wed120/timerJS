@@ -16,19 +16,9 @@ body {
 .timer_tittle {
     font-weight: 500;
     font-size: 50px;
-    line-height: 61px;
+    line-height: 50px;
     text-align: center;
     color: black;
-}
-
-@media (min-width: 325px) and (max-width: 768px) {
-    .timer_tittle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 30px;
-        text-align: center;
-        color: black;
-    }
 }
 
 .timer {
@@ -69,4 +59,23 @@ body {
     line-height: 30px;
     text-align: justify;
     color: #000000;
+}
+
+@media (max-width: 768px) {
+    .timer {
+        width: 400px;
+        height: auto;
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 45px;
+        color: #000000;
+        padding: 20px 60px;
+    }
+
+    .timer_content {
+        flex-direction: column;
+    }
+
+    .timer_text {
+        text-align: center;
+    }
 }
