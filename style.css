@@ -10,7 +10,7 @@ body {
     background-image: url("image/bg.png") ;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .timer_tittle {
